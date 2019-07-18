@@ -30,6 +30,20 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/aditya/eclipse-workspace/jar_files/servlet/javax.servlet-api-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/aditya/eclipse-workspace/jar_files/servlet/javax.servlet-api-4.0.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aditya/eclipse-workspace/jar_files/jdbc/mysql-connector-java-8.0.16.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aditya/eclipse-workspace/jar_files/jdbc/protobuf-java-3.6.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
