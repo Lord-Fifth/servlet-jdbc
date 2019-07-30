@@ -4,7 +4,7 @@ import java.sql.*;
 
 // This class can be used to initialize the database connection 
 public class DatabaseConnection { 
-	protected static Connection initializeDatabase() throws SQLException, ClassNotFoundException 
+	public static Connection initializeDatabase() throws SQLException, ClassNotFoundException 
 	{ 
 		// Initialize all the information regarding Database Connection 
 		String dbDriver = "com.mysql.cj.jdbc.Driver"; 
